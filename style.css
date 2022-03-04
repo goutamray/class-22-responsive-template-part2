@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.container{
+    width: 1020px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/****** HEADER SECTION  *******/
+.header{
+background-color: #22c3a3;
+padding: 40px 0;
+}
+.logo {
+    float: left;
+    width: 30%;
+}
+.logo a {
+    color: #fff;
+    font-size: 37px;
+    font-weight: 700;
+    margin-top: -10px;
+    display: inline-block;
+}
+.menu {
+    float: right;
+    width: 70%;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0px 6px;
+    font-size: 22px;
+    font-weight: 800;
+}
+.menu ul li a:hover{
+    
+}
+
+/***** BANNER   SECTION  *****/
+.banner{
+    background: url(https://i.ibb.co/4pGBV3F/header-bg01.jpg) no-repeat center ;
+    background-size: cover;
+    padding: 150px 0;
+}
+.text{
+
+}
+.text h2 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.text p {
+    font-size: 24px;
+    color: #fff;
+}
+.button{
+    margin-top: 25px;
+
+}
+.button a{
+font-size: 30px;
+display: inline-block;
+color: #fff;
+padding: 10px 15px;
+border: 2px solid #fff;
+
+}
+/*******  SERVICE SECTION    *******/
+.service {
+    margin-top: 50px;
+}
+.text2{
+margin-top: 20px;
+}
+.text2 h1{
+color: #555555;
+font-size: 50px;
+font-weight: 800;
+margin-bottom: 10px;
+
+}
+.text2 p {
+    font-size: 20px;
+}
+.service {
+    margin-top: 50px;
+    border-bottom: 1px solid #11c09d;
+}
+.service-box {
+    float: left;
+    width: 22%;
+    text-align: center;
+    margin-right: 13px;
+    padding: 45px 5px;
+    box-sizing: border-box;
+}
+.service-box span i {
+    color: #11c09d;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.service-box h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.service-box p {
+    font-size: 20px;
+}
+
+/*****  About section   *****/
+
+.about {
+    margin-top: 25px;
+}
+.text3 {
+    margin-bottom: 50px;
+}
+.text3 h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.text3 p {
+    font-size: 20px;
+}
+.content {
+    margin-top: 35px;
+}
+.image{
+float: left;
+width: 50%;
+}
+.image img{
+max-width: 100%;
+}
+
+.content-1 {
+    float: right;
+    width: 45%;
+    color: #707070;
+}
+.content-1 h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.content-1 p {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/***** Contact section  ******/
+.contact {
+    margin-top: 30px;
+    background: #f6f6f6;
+    padding: 40px 0;
+}
+.text4{
+
+}
+.text4 h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+.text4 p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.c-box {
+    float: left;
+    width: 30%;
+    margin-right: 31px;
+}
+.contact-box {
+    margin-top: 30px;
+    text-align: center;
+}
+.contact-box span i {
+    font-size: 2;
+    font-size: 30px;
+    color:#11c09d;
+    margin-bottom: 8px;
+}
+.contact-box h2 {
+    font-size: 30px;
+    color:#707070 ;
+    margin-bottom: 5px;
+}
+.contact-box h3 {
+    font-size: 29px;
+    color:#707070 ;
+}
+/*****  Social  menu   ******/
+.social-menu{
+background: #0dbf9b;
+padding: 30px 0;
+}
+.s-menu{
+
+}
+.s-menu ul{
+text-align: center;
+}
+.s-menu ul li{
+display: inline-block;
+}
+.s-menu ul li a {
+    display: inline-block;
+    padding: 0px 12px;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+
+/****  footer section   *****/
+.footer{
+background:black ;
+text-align: center;
+}
+.footer p {
+    color: #ddd;
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
